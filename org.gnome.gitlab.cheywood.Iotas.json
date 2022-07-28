@@ -24,77 +24,7 @@
         "/share/pkgconfig"
     ],
     "modules": [
-        {
-            "name": "python-idna",
-            "buildsystem": "simple",
-            "build-commands": [
-                "python3 setup.py install --prefix=/app --root=/"
-            ],
-            "sources": [
-                {
-                    "type": "git",
-                    "url": "https://github.com/kjd/idna",
-                    "tag": "v3.3"
-                }
-            ]
-        },
-        {
-            "name": "python-certifi",
-            "buildsystem": "simple",
-            "build-commands": [
-                "python3 setup.py install --prefix=/app --root=/"
-            ],
-            "sources": [
-                {
-                    "type": "git",
-                    "url": "https://github.com/certifi/python-certifi",
-                    "tag": "2021.10.08"
-                }
-            ]
-        },
-        {
-            "name": "python-chardet",
-            "buildsystem": "simple",
-            "build-commands": [
-                "python3 setup.py install --prefix=/app --root=/"
-            ],
-            "sources": [
-                {
-                    "type": "git",
-                    "url": "https://github.com/chardet/chardet",
-                    "tag": "4.0.0",
-                    "commit": "a808ed1c945293c0edeeda3a360abfa2a0b25a20"
-                }
-            ]
-        },
-        {
-            "name": "python-urllib3",
-            "buildsystem": "simple",
-            "build-commands": [
-                "python3 setup.py install --prefix=/app --root=/"
-            ],
-            "sources": [
-                {
-                    "type": "git",
-                    "url": "https://github.com/urllib3/urllib3",
-                    "tag": "1.26.9"
-                }
-            ]
-        },
-        {
-            "name": "python-requests",
-            "buildsystem": "simple",
-            "build-commands": [
-                "python3 setup.py install --prefix=/app --root=/"
-            ],
-            "sources": [
-                {
-                    "type": "archive",
-                    "url": "https://github.com/psf/requests/archive/v2.27.1.tar.gz",
-                    "sha256": "b290592a3ade14f676d00db0a4ec0e500271fa9cc4c07a108e30731173be4299"
-                }
-            ]
-        },
+        "python3-requirements.json",
         {
             "name" : "iotas",
             "buildsystem" : "meson",
@@ -103,8 +33,8 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.gnome.org/cheywood/iotas.git",
-                    "tag": "0.1.1",
-                    "commit": "0fc4b0517eafb2c5bb066f7bc25268e3c7f3566d"
+                    "tag": "0.1.2",
+                    "commit": "6d5fb4e22b7f0f0a12e2beefb0af46c6e40641b5"
                 }
             ]
         }
