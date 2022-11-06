@@ -33,8 +33,8 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.gnome.org/cheywood/iotas.git",
-                    "tag": "0.1.5",
-                    "commit": "ca73c08c0c992addeb28e0448ed37d8c88591a76"
+                    "tag": "0.1.6",
+                    "commit": "e7fe090a4ddfb049f3d6f5c85e04effa721482f9"
                 }
             ]
         }
