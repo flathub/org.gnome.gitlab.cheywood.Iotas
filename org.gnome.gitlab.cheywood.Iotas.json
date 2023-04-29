@@ -1,7 +1,7 @@
 {
     "app-id": "org.gnome.gitlab.cheywood.Iotas",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "43",
+    "runtime-version": "44",
     "sdk": "org.gnome.Sdk",
     "command": "iotas",
     "finish-args": [
@@ -33,8 +33,8 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.gnome.org/cheywood/iotas.git",
-                    "tag": "0.1.13",
-                    "commit": "5e456eb041fb259f8014538ec3d1666ca6e7fb19"
+                    "tag": "0.1.14",
+                    "commit": "5af84a4dc7ccfb6817ccd1a32d91fad2f52d6f4b"
                 }
             ]
         }
