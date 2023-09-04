@@ -32,9 +32,9 @@
             "sources" : [
                 {
                     "type": "git",
-                    "url": "https://gitlab.gnome.org/cheywood/iotas.git",
-                    "tag": "0.2.2",
-                    "commit": "d5ecef98614115305152ce4ca10a425ad5a6c054"
+                    "url": "https://gitlab.gnome.org/World/iotas.git",
+                    "tag": "0.2.3",
+                    "commit": "ca8bddad81bea4d9ec44a43613dc3e40234e577f"
                 }
             ]
         }
